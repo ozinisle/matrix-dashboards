@@ -34,19 +34,19 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 The project was created and structured through the following sequence of commands. In the exact same order of their position in the list
 
-  # creates the app and installs all the dependencies
+  ### creates the app and installs all the dependencies
     ng new matrix-dashboards --routing --style=scss 
-  # install angular material  
+  ### install angular material  
     npm install --save @angular/material @angular/cdk @angular/animations    
-  # install materialize-css, crypto-js, font-awesome and roboto-fontface
+  ### install materialize-css, crypto-js, font-awesome and roboto-fontface
     npm i materialize-css crypto-js font-awesome roboto-fontface --save 
     npm install --save-dev @fortawesome/fontawesome-free
-  # install infinite scroll
+  ### install infinite scroll
     npm i ngx-infinite-scroll
 
 # cli commands used to create parts of the app
-ng generate module entry-gate-way --routing
-ng g c landing-page 
-ng g m proof-of-concepts --routing
-ng g c poc-landing-page
-ng g m shared-module
+  ng generate module entry-gate-way --routing
+  ng g c landing-page 
+  ng g m proof-of-concepts --routing
+  ng g c poc-landing-page
+  ng g m shared-module
