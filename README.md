@@ -37,9 +37,7 @@ The project was created and structured through the following sequence of command
   # creates the app and installs all the dependencies
     ng new matrix-dashboards --routing --style=scss 
   # install angular material  
-    npm install --save @angular/material @angular/cdk @angular/animations
-  # downgraded from version 7.1.1 because of a bug documented in https://github.com/angular/angular-cli/issues/11835
-    npm install @angular/compiler@6.1.1     
+    npm install --save @angular/material @angular/cdk @angular/animations    
   # install materialize-css, crypto-js, font-awesome and roboto-fontface
     npm i materialize-css crypto-js font-awesome roboto-fontface --save 
     npm install --save-dev @fortawesome/fontawesome-free
